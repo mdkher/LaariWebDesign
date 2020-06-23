@@ -30,7 +30,7 @@ navbar{
     justify-content: space-between;
     align-items: center;
     min-height: 10vh;
-    background-color: #00cccc;
+    background-color: #03a1c4;
     font-family: 'Montserrat',sans-serif;  
     width: 100%;
     position: fixed;
@@ -107,7 +107,7 @@ navbar{
         right: 0px;
         height: 92vh;
         top:8vh;
-        background-color: #00cccc;
+        background-color: #03a1c4;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -123,8 +123,15 @@ navbar{
 
     .burger{
         display: block;
+        margin-right: 1em;
+    }
+
+    .navname{
+        margin-left: 1em;
     }
 }
+
+
 
 .navbar-active{
     transform: translateX(0%);
@@ -183,7 +190,7 @@ navbar{
 }
 .welcome-text h1{
     text-align: center;
-    color: #00cccc;
+    color: #03a1c4;
     text-transform: uppercase;
     font-size: 80px;   
     text-shadow: 2px 2px black; 
@@ -207,6 +214,18 @@ navbar{
     color: black;
 }
 
+@media screen and (max-width: 780px){
+    .welcome-text {
+        padding-top: 40%;
+    }
+}
+
+@media screen and (max-width: 640px){
+    .welcome-text{
+        padding-top: 50%;
+    }
+}
+
 .why-are-we{
     position: relative;
     margin: 5% 20%;
@@ -215,13 +234,19 @@ navbar{
 }
 .why-are-we h2{
     text-align: center;
-    color: #00cccc;
+    color: #03a1c4;
     text-transform: uppercase;
     font-size: 30px;
 }
 
 .why-are-we ul {
     margin-left: 1em;
+}
+
+@media screen and (max-width: 700px){
+    .why-are-we{
+        margin: 0%
+    }
 }
 
 .our-products{
@@ -232,12 +257,23 @@ navbar{
 }
 .our-products h1{
     text-align: center;
-    color: #00cccc;
+    color: #03a1c4;
     text-transform: uppercase;
     font-size: 70px;
     text-shadow: 2px 2px black; 
     /* border: 2px solid black; */
     /* background-color: rgba( 255, 255, 255, 0.4); */
+}
+
+@media screen and (max-width: 780px){
+    .our-products{
+       padding: 40% 0% 25% 0%;
+    }
+}
+@media screen and (max-width: 640px){
+    .our-products{
+        padding: 55% 0% 25% 0%;
+     }
 }
 
 .product-laari-features{
@@ -248,13 +284,13 @@ navbar{
 }
 .product-laari-features h2{
     text-align: center;
-    color: #00cccc;
+    color: #03a1c4;
     text-transform: uppercase;
     font-size: 35px;
 }
 .product-laari-features h3{
     text-align: left;
-    color: #00cccc;
+    color: #03a1c4;
     text-transform: uppercase;
     font-size: 20px;
 }
@@ -268,13 +304,13 @@ navbar{
 }
 .product-gps-features h2{
     text-align: center;
-    color: #00cccc;
+    color: #03a1c4;
     text-transform: uppercase;
     font-size: 35px;
 }
 .product-gps-features h3{
     text-align: left;
-    color: #00cccc;
+    color: #03a1c4;
     text-transform: uppercase;
     font-size: 20px;
 }
@@ -287,13 +323,13 @@ navbar{
 }
 .product-fridge-features h2{
     text-align: center;
-    color: #00cccc;
+    color: #03a1c4;
     text-transform: uppercase;
     font-size: 35px;
 }
 .product-fridge-features h3{
     text-align: left;
-    color: #00cccc;
+    color: #03a1c4;
     text-transform: uppercase;
     font-size: 20px;
 }
@@ -306,15 +342,37 @@ navbar{
 }
 .product-prakash-features h2{
     text-align: center;
-    color: #00cccc;
+    color: #03a1c4;
     text-transform: uppercase;
     font-size: 35px;
 }
 .product-prakash-features h3{
     text-align: left;
-    color: #00cccc;
+    color: #03a1c4;
     text-transform: uppercase;
     font-size: 20px;
+}
+
+@media screen and (max-width: 700px){
+    .product-prakash-features{
+        margin: 0%;
+    }
+    .product-fridge-features{
+        margin: 0%;
+    }
+    .product-gps-features{
+        margin: 0%;
+    }
+    .product-laari-features{
+        margin: 0%;
+        margin-bottom: 2em;
+    }
+}
+
+@media screen and (max-width: 488px){
+    .product-fridge-features h2 {
+        font-size: 30px;
+    }
 }
 .our-vision{
     position: relative;
@@ -324,10 +382,18 @@ navbar{
 }
 .our-vision h1{
     text-align: center;
-    color: #00cccc;
+    color: #03a1c4;
     text-transform: uppercase;
     font-size: 70px;
     text-shadow: 2px 2px black; 
+}
+
+
+
+@media screen and (max-width: 640px){
+    .our-vision{
+        padding: 60% 0% 0% 0%;
+    }
 }
 
 .vision-statement{
@@ -338,16 +404,22 @@ navbar{
 }
 .vision-statement h2{
     text-align: left;
-    color: #00cccc;
+    color: #03a1c4;
     text-transform: uppercase;
     font-size: 20px;
+}
+
+@media screen and (max-width: 700px){
+    .vision-statement{
+        margin: 0%;
+    }
 }
 /*FOOTER*/
 .footer{
     width: 100%;
     height: auto;
     margin: auto;
-    background: #00cccc;
+    background: #03a1c4;
     padding: 20px 0px;
 }
 .footer-social{
