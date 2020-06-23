@@ -45,6 +45,13 @@ navbar{
     margin-left: 3em;
 }
 
+.navname img {
+    width: 70px;
+    margin-top: 10px;
+    opacity: 90%;
+
+}
+
 .navbar-links{
     display: flex;
     justify-content: space-around;
