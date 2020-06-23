@@ -7,8 +7,13 @@ body{
 *{
     box-sizing: border-box;
 }
+.back-btn{
+    border-radius: 50%;
+    background-color: white;
+    padding: 8px 15px;
+}
 .team-section{
-    background-color: #00cccc;
+    background-color: #03a1c4;
     min-height: 100vh;
     padding: 70px 15px;
 }
@@ -65,7 +70,7 @@ body{
     padding: 0 15px;
 }
 .team-section .team-items .item .inner .info{
-    background-color: #00cccc;
+    background-color: #03a1c4;
     text-align: center;
     padding: 20px 15px;
     border-radius: 8px;
