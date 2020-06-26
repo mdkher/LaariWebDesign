@@ -10,7 +10,15 @@ body {
 .back-btn {
   border-radius: 50%;
   background-color: white;
-  padding: 8px 15px;
+  padding: 1vh 1vw;
+  font-size: 3vh;
+}
+.back-link-flex{
+  margin-top: 3.3vh;
+}
+#back-link{
+  text-decoration: none;
+  color: #03a1c4;
 }
 .team-section {
   background-color: #03a1c4;
@@ -26,7 +34,7 @@ body {
   flex-wrap: wrap;
 }
 .team-section .section-title {
-  flex-basis: 100%;
+  flex-basis: 90%;
   max-width: 100%;
   margin-bottom: 70px;
 }
