@@ -62,7 +62,6 @@ body {
   height: 80%;
   border-radius: 10px;
   object-fit: cover;
-  /* image-resolution: initial; */
 }
 .team-section .team-items .item .inner {
   position: relative;
