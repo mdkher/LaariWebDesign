@@ -1,8 +1,32 @@
 LAARI 
-To-Do List Ideas
 
-QR Code Thing Finalise
 Some good photos of market plus our products too.
 Transition for effects
 All members detail and photo
 Not sure about everyone's image size. I think need to check once all is fit or not.
+
+Blog Update from previous website
+Other all also fetch from previous website
+
+Team Section Partition
+
+In the CSS if you see
+Font size and all thr spacings are given in either px or em values 
+Change those to vh or vw walues
+It will auto adjust according to the window size
+
+Dipen will send Shapes
+
+Background Animations
+
+pela image che then text che then again image che and then bou j badho text che
+pachi last ek image che
+so khali image and text nu balance kar sarkhu
+and also the imaginary so first image che jema we are laari lakhyu che
+ee image che ne connect nathe thate also koi bhe website na starting ma directly picture is not a good thing as far as i know!
+bija be image no choice is good but khali avu che ena karta try and put some other type of visuals also interactive type nu
+that starting ma contact us and our team na ave ee bev vastu end ma avse and our team walu che ema bhe do one thing k criteria kar and then ena andar people like for example product development right enu ek banay and then ena andar product development wala jetla che ee badha and ema then tu specific kare shake k product development ma aa member aa vastu specifically ma expert che kinda.
+but contact us and team member last ma avse
+vision pela avse then products avse
+
+Responsive Full See
